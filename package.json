@@ -1,0 +1,10 @@
+{
+  "name": "nuxt-module-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "prepack:lib": "pnpm --filter @proj/ui prepack",
+    "dev:lib:prepare": "pnpm --filter @proj/ui dev:prepare",
+    "dev:lib": "pnpm --filter @proj/ui dev",
+    "dev:app": "pnpm --filter nuxt-app dev"
+  }
+}

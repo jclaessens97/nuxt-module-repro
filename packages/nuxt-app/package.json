@@ -1,0 +1,16 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@proj/ui": "file:../lib/ui"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.8"
+  }
+}
